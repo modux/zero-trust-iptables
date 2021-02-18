@@ -1,0 +1,16 @@
+pypi.python.org
+registry.npmjs.org
+Skimdb.npmjs.com
+Api.npms.io
+packages.ubuntu.com
+github.com
+quay.io
+docker.elastic.co
+hub.docker.com
+luarocks.org
+registry-1.docker.io
+auth.docker.io
+production.cloudflare.docker.com
+cdn02.quay.io
+security.debian.org
+deb.debian.org
