@@ -1,6 +1,11 @@
 # zero-trust-iptables
 Lock down your iptables to a whitelist of domains
 
+## Warning ##
+This script will block EGRESS from your machine as one of the first steps
+
+Ingress rules are not modified
+
 Use for locking down a build machine or a dev VM
 
 We don't want those third-party libs dialing out during build or run
