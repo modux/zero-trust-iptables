@@ -4,7 +4,7 @@ Lock down your iptables to a whitelist of domains
 ## Warning ##
 This script will block EGRESS from your machine as one of the first steps
 
-Ingress rules are not modified
+Egress rules for established, related connections are added
 
 Use for locking down a build machine or a dev VM
 
