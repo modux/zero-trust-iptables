@@ -33,7 +33,23 @@ sudo apt-get install ipset
 
 ## Usage
 
+To populate whitelist automatically run:
+
+```bash
+./lockdown-egress-to-whitelist.sh monitor
+```
+
+Run your program or build script, whitelist.txt will be populated with domains that were attempted to reach.
+
+Review whitelist.txt and remove any nefarious looking things.
+
 Modify whitelist.txt to include the domains you need.
+
+Run the lockdown: 
+
+```bash
+./lockdown-egress-to-whitelist.sh
+```
 
 Default includes fairly standard Python pip, NodeJS npm, Docker hub and Ubuntu.
 
